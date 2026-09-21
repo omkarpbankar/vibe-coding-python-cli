@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "habits": [
+    {
+      "id": 1,
+      "name": "Morning Meditation",
+      "description": "15 minutes of mindfulness breathing",
+      "category": "Mindset",
+      "target_type": "boolean",
+      "target_value": 1.0,
+      "unit": "",
+      "frequency": "daily",
+      "created_at": "2026-09-22T00:09:34.422819",
+      "is_active": true,
+      "is_completed_today": false,
+      "today_progress": 0.0
+    },
+    {
+      "id": 2,
+      "name": "Daily Water Intake",
+      "description": "Stay hydrated throughout the day",
+      "category": "Health",
+      "target_type": "numeric",
+      "target_value": 8.0,
+      "unit": "glasses",
+      "frequency": "daily",
+      "created_at": "2026-09-22T00:09:34.422819",
+      "is_active": true,
+      "is_completed_today": false,
+      "today_progress": 0.0
+    },
+    {
+      "id": 3,
+      "name": "Read Python Books",
+      "description": "Read clean code and architecture chapters",
+      "category": "Learning",
+      "target_type": "numeric",
+      "target_value": 20.0,
+      "unit": "pages",
+      "frequency": "weekdays",
+      "created_at": "2026-09-22T00:09:34.422819",
+      "is_active": true,
+      "is_completed_today": false,
+      "today_progress": 0.0
+    },
+    {
+      "id": 4,
+      "name": "Evening Walk",
+      "description": "",
+      "category": "Health",
+      "target_type": "numeric",
+      "target_value": 5000.0,
+      "unit": "steps",
+      "frequency": "daily",
+      "created_at": "2026-09-22T00:17:58.700491",
+      "is_active": true,
+      "is_completed_today": false,
+      "today_progress": 0.0
+    }
+  ],
+  "logs": [
+    {
+      "id": 1,
+      "habit_id": 1,
+      "log_date": "2026-09-22",
+      "completed": true,
+      "value": 1.0,
+      "notes": "Morning session done.",
+      "created_at": "2026-09-22T00:14:46.440554"
+    },
+    {
+      "id": 2,
+      "habit_id": 2,
+      "log_date": "2026-09-22",
+      "completed": true,
+      "value": 8.0,
+      "notes": "Goal reached.",
+      "created_at": "2026-09-22T00:14:46.454490"
+    },
+    {
+      "id": 3,
+      "habit_id": 4,
+      "log_date": "2026-09-22",
+      "completed": true,
+      "value": 5000.0,
+      "notes": "Walked in the park",
+      "created_at": "2026-09-22T00:18:14.231401"
+    }
+  ]
+}
